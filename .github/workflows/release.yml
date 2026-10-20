@@ -43,14 +43,14 @@ jobs:
             goos: darwin
             goarch: arm64
             cc: clang
-            ext: dylib
-          - os: windows
-            arch: amd64
-            runner: windows-latest
-            goos: windows
-            goarch: amd64
-            cc: gcc
-            ext: dll
+          #   ext: dylib
+          # - os: windows
+          #   arch: amd64
+          #   runner: windows-latest
+          #   goos: windows
+          #   goarch: amd64
+          #   cc: gcc
+          #   ext: dll
 
     steps:
       - uses: actions/checkout@v4
